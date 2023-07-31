@@ -1,0 +1,11 @@
+#Write a Python program to count the number of even and odd numbers from a series of numbers.
+num = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+oddnumbers = 0
+evenumbers = 0
+for x in num:
+        if not x % 2:
+    	     evenumbers+=1
+        else:
+    	     oddnumbers+=1
+print("Number of even numbers :",evenumbers)
+print("Number of odd numbers :",oddnumbers)
